@@ -1,0 +1,34 @@
+/*التجاوب في قسم تواصل معي*/
+
+
+/* الهواتف الصغيرة */
+@media (max-width:480px){
+    .contact-fields .btn-primary{
+        width:50%;
+       }
+       .contact-fields input,
+       .contact-fields textarea{
+        width:100%;
+       }
+}
+
+
+/* الهواتف المتوسطة */
+@media ((min-width:481px) and (max-width:768px)){
+    .contact-fields .btn-primary{
+        width:50%;
+      }
+      .contact-fields input,
+      .contact-fields textarea{
+        width:100%; 
+    }
+      
+}
+
+
+/* التجاوب في الاجهزة المتوسطة ايباد و هكي */
+@media (min-width: 768px) and (max-width: 1024px){
+    .contact-fields input,
+    .contact-fields textarea{
+           width:100%; }
+}

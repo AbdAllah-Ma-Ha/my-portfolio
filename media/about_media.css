@@ -1,0 +1,162 @@
+/* media about التجاوب في قسم حولي ! */
+
+
+/* الهواتف الصغيرة */
+@media (max-width:480px)
+{
+  .about-section{
+    padding:0px;
+  }
+  .about-container{
+   width: 100%;
+  }
+  .about-flex{
+   flex-direction: column-reverse;
+   align-items: stretch;
+  }
+  .about-flex .about-left, .about-flex .about-right {
+   width:100%;
+  }
+  .about-left .btn-primary{
+   font-size:16px;
+   padding:10px 20px;
+   width: 80%;
+ }
+ .about-left .btn-primary a{
+  font-size:0.8rem;
+  margin-right: 10px;
+ }
+  .about-right img{
+   max-width:60%;
+  }
+  .about-title, .about-subtitle, .about-sub-subtitle, .about-paragraph {
+   text-align:left; 
+  }
+  .about-left .line-divider{
+   width:100px;
+ 
+  }
+  .about-left .about-title{
+    font-size:25px;
+  }
+  .about-left .about-subtitle{
+   font-size:1.1rem;
+  }
+  .about-left .about-sub-subtitle{
+   font-size:1rem;
+ }
+ .about-mydata{
+   flex-direction: column;
+   gap:0rem;
+ }
+ .mydata-column{
+   width:100%;
+ }
+
+}
+
+
+/* الهواتف المتوسطة */
+@media ((min-width:481px) and (max-width:768px)) {
+
+   .about-section{
+     padding:0px;
+   }
+   .about-container{
+    width: 100%;
+   }
+   .about-flex{
+    flex-direction: column-reverse;
+    align-items: stretch;
+   }
+   .about-flex .about-left, .about-flex .about-right {
+    width:100%;
+   }
+   .about-left .btn-primary{
+    font-size:16px;
+    padding:10px 20px;
+    width: 53%;
+  }
+   .about-right img{
+    max-width:60%;
+   }
+   .about-title, .about-subtitle, .about-sub-subtitle, .about-paragraph {
+    text-align:left; 
+   }
+   .about-left .line-divider{
+    width:100px;
+  
+   }
+   .about-left .about-title{
+     font-size:25px;
+   }
+   .about-left .about-subtitle{
+    font-size:1.5rem;
+   }
+   .about-left .about-sub-subtitle{
+    font-size:1rem;
+  }
+  .about-mydata{
+    flex-direction: column;
+    gap:0rem;
+  }
+  .mydata-column{
+    width:100%;
+  }
+}
+
+
+/* التجاوب في الاجهزة المتوسطة ايباد و هكي */
+@media (min-width: 768px) and (max-width: 1024px) 
+{
+
+  .about-section{
+    padding:0px;
+  }
+  .about-container{
+   width: 100%;
+  }
+  .about-flex{
+   flex-direction: column-reverse;
+   align-items: stretch;
+  }
+  .about-flex .about-left, .about-flex .about-right {
+   width:100%;
+  }
+  .about-right img{
+   max-width:60%;
+  }
+  .about-title, .about-subtitle, .about-sub-subtitle, .about-paragraph {
+   text-align:left; 
+  }
+  .about-left .line-divider{
+   width:100px;
+ 
+  }
+  .about-left .about-title{
+    font-size:25px;
+  }
+  .about-left .about-subtitle{
+   font-size:1.5rem;
+  }
+  .about-left .about-sub-subtitle{
+   font-size:1rem;
+ }
+ .about-mydata{
+   flex-direction: column;
+   gap:0rem;
+ }
+ .mydata-column{
+   width:100%;
+ }
+ 
+
+ .about-left .btn-primary{
+   font-size:16px;
+   padding:10px 20px;
+   width: 30%;
+ }
+}
+
+
+

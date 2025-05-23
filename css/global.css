@@ -1,0 +1,75 @@
+
+/*هذا يطبق في الشكل العام*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+   
+   
+}
+
+/* dark mode all background يعني ارضية الموقع كله هكي لونها */
+.dark .section-contact,
+.dark .section-about,
+.dark .section-skills,
+.dark .main-navbar,
+.dark .main-container,
+.dark .skills-content,
+.dark .skills-container,
+.dark .contact-container,
+.dark .contact-flex,
+.dark .section-projects,
+.dark .project,
+.dark .main-section,
+.dark #nav_list,
+.dark .about-container,
+.dark .about-flex,
+.dark .about-left{
+    background-color: #020a21 !important;
+}
+/* لون بعض خطوط الموقع باللون الابيض و قلت بعض لانه الباقي لون برتقالي يخدم عالجهتين */
+.dark .fa-sun ,
+.dark .typed-text span,
+.dark .about-flex .about-left .about-subtitle,
+.dark .about-flex .about-left .about-paragraph ,
+.dark .mydata-column p,
+.dark ul li a,
+.dark .main-content .left-content .btn-primary a,
+.dark .skills-content .skills-title,
+.dark .skill-name,
+.dark .container-projects .section-project-title p,
+.dark .project .description-project,
+.dark .section-contact-title .contact-title,
+.dark .contact-fields .contact-message,
+.dark .contact-flex .contact-socials .social-link{
+    color: #fff;
+}
+
+/*تنسيقات للزر و في الهوفر في الوضع الليلي*/
+.dark .main-container .left-content .btn-primary,
+.dark  .contact-fields .btn-primary:hover {
+    background-color: #fca311;
+}
+.dark nav .btn-primary{
+    padding:10px 20px;
+    background-color:#fca311;
+    color:#fff;
+    font-size:16px;
+    font-weight: bold;
+    border:none;
+    border-radius:15px;
+    cursor: pointer;
+    margin: 15px 0px;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+    margin-right: 10px;
+}
+
+/*حاجة عامة باش لما يكون الوضع ليل تظهر ايقونة الشمس باللون الاصفر و لما يكون الوضع نهار تظهر ايقونة الهلال باللون الابيض*/
+.fa-moon{
+    color:white;
+}
+.fa-sun{
+    color:#fca311;
+}

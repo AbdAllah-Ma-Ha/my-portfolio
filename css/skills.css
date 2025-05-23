@@ -1,0 +1,51 @@
+/* قسم Skills */
+.section-skills {
+    background-color:#6C7A89;
+    background-color:#f2f2f2;
+    padding: 50px;
+    text-align: center;
+}
+
+.skills-container {
+    max-width: 1100px;
+    width: 100%;
+    margin:auto;
+    padding:30px;
+    background-color:#f2f2f2;
+    border:1px solid #fff;
+}
+.skills-content .skills-title {
+    font-size: 2rem;
+    color: #14213d;
+    margin-bottom: 20px;
+}
+
+.skill-item {
+    margin-bottom: 20px;
+    text-align: left;
+    width: 70%;
+    margin: 1.5rem auto;
+}
+
+.skill-name {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #14213d;
+}
+
+.progress {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 15px;
+}
+.progress-fill {
+    height: 100%;
+    background-color:#F2C94C;
+    cursor:pointer;
+  }
+  .progress-fill p{
+    color: #fff; font-size:13px;text-align:right;
+  }
+  
+

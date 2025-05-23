@@ -1,0 +1,42 @@
+/* media projects التجاوب في قسم  المشاريع*/
+
+
+/* الهواتف الصغيرة */
+@media (max-width:480px){
+    .projects-flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:stretch;
+        gap:1rem;
+     }
+     .project{
+      width: 100%;
+     }
+     .project .title-project{
+         font-size:1rem;
+     }
+}
+
+
+/* الهواتف المتوسطة */
+@media ((min-width:481px) and (max-width:768px)){
+    .projects-flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:stretch;
+        gap:1rem;
+    }
+    .project{
+      width: 100%;
+    }
+}
+
+
+/* التجاوب في الاجهزة المتوسطة ايباد و هكي */
+@media (min-width: 768px) and (max-width: 1024px){
+    .project{
+        width: 100%;
+        }
+}

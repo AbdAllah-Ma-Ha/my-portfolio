@@ -1,0 +1,32 @@
+/*التجاوب في قسم المهارات*/
+
+
+/* الهواتف الصغيرة */
+@media (max-width:480px){
+    .skill-item{
+        width: 100%;
+       }
+}
+
+
+/* الهواتف المتوسطة */
+@media ((min-width:481px) and (max-width:768px)){
+    .skill-item{
+        width: 100%;
+      }
+}
+
+
+/* التجاوب في الاجهزة المتوسطة ايباد و هكي */
+@media (min-width: 768px) and (max-width: 1024px){
+    .skill-item{
+        width: 100%;
+       }
+       .projects-flex{
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items:stretch;
+         gap:1rem;
+       }
+}
